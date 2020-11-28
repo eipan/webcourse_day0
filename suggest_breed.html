@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cats History</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="about/about_us.html">About Us</a>
+      <a href="about/about_gayer_cat.html">The Gayer-Anderson Cat</a>
+      <a href="#">Suggest Breed</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </header>
+  <main>
+    <article> 
+        <section>
+            <p>
+                Breeds : <a href="https://www.purina.com/cats/cat-breeds" target="_blank">Sample breeds</a>
+            </p>
+        </section>
+        <section>
+            <em>Suggest the breed you know here.</em>
+            <h2><i>Suggestion Form</i></h2>
+            <form method="post" action="/">
+                <div>
+                    <label for="breed_name">Breed :</label>
+                    <input type="text" id="name" name="username" required/> *   
+                </div>
+                <br/>
+                <div>
+                    <label for="origin">Origin :</label>
+                    <input type="text" id="origin" name="origin" required/> *
+                </div>
+                <br/>
+                <div>
+                    <label for="natural">Type :</label>
+                    <label for="natural">Natural</label> <input type="radio" name="type" value="natural" id="natural"/> 
+                    <label for="cross">Crossbreed</label> <input type="radio" name="type" value="cross" checked id="cross"/>
+                    <label for="mutation">Mutation</label> <input type="radio" name="type" value="mutation" checked id="mutation"/>
+                </div>
+                <br/>
+                <div>
+                    <label for="body_type">Body Type :</label>
+                    <select id="body_type" name="body_type">
+                        <option>please select a value</option>
+                        <option value="sf">Semi-foreign</option>
+                        <option value="l">Large</option>
+                        <option value="c">Cobby</option>
+                    </select>
+                </div>
+                <br/>
+                <div>
+                    <label for="name">Your Name :</label>
+                    <input type="name" id="name" name="username" required/> *
+                </div>
+                <br/>
+                <div>
+                    <label for="email">Your E-mail :</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <br/>
+                <div>
+                    <p>Extra Info :</p>
+                    <!-- <label for="info">Extra Info :</label> -->
+                    <textarea name="info" id="info" cols="50" rows="3"></textarea>
+                </div>
+                <br/>
+                <button>Submit</button>
+            </form>
+        </section>
+    </article>
+  </main>
+  <footer>
+    <!-- <strong>Contact Info: </strong> -->
+    <address>
+        <strong>Contact Info: </strong> 
+        Email: <a href="mailto:breedsexplore@email.com" target="_blank">breedsexplore@email.com</a>
+        Phone: <a href="tel:+95123456789" target="_blank">09 123456789</a>
+    </address> 
+    <hr/>
+    &copy; 2020
+  </footer>
+</body>
+</html>
